@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
+/* Shared Styles. */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+
+/* Header Related Styles. */
+header {
+    background: rgb(38, 70, 83);
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 36px;
+    align-items: center;
+    justify-content: end;
+    padding-top: 30px;
+}
+
+.nav-item {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+.nav-button {
+    width: 91px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    border-radius: 5px;
+    background: rgb(231, 111, 81);
+    padding: 10px 24px;
+    border: none;
+    margin-left: 64px;
+}
+
+.banner {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.banner-content {
+    margin-top: 140px;
+}
+
+.banner-top {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin: 0px;
+    margin-bottom: 12px;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    margin: 0px;
+    margin-bottom: 20px
+}
+
+.banner-desc {
+    color: rgb(224, 224, 224);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0px;
+    margin-bottom: 22px;
+}
+
+.purchase-button {
+    width: 168px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 5px;
+    background: rgb(231, 111, 81);
+    padding: 10px;
+    border: none;
+}
+
+.banner-image {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+/* End of Header Related Styles. */
+
+
+
+/* Features Bikes Relates Styles. */
+.feature-bikes {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.feature-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.feature-title {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.feature-desc {
+    color: rgb(231, 111, 81);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+/* .feature-border {
+    text-align: center;
+    width: 50px;
+    border: 1px solid rgb(231, 111, 81);
+    margin-left: 575px;
+    margin-bottom: 50px;
+} */
+
+.feature-image {
+    justify-content: space-between;
+}
+
+.feature-1,
+.feature-3 {
+    filter: grayscale(100%);
+}
+
+/* End of Features Bikes Relates Styles. */
+
+
+
+/*Latest-News Related Styles.  */
+.latest-news {
+    max-width: 1200px;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+.latest-box {
+    width: 337px;
+    height: 565px;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+
+.box-image {
+    padding-bottom: 40px;
+}
+
+.box-title {
+    color: rgb(24, 25, 31);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+
+.box-desc {
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 40px;
+}
+
+.box-button-1 {
+    width: 160px;
+    height: 57px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    border-radius: 5px;
+    background: rgb(231, 111, 81);
+    padding: 15px;
+    border: none;
+}
+
+.box-button-2,
+.box-button-3 {
+    width: 160px;
+    height: 57px;
+    color: rgb(231, 111, 81);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(231, 111, 81);
+    background-color: white;
+    padding: 15px;
+}
+
+/*End of Latest-News Related Styles.  */
+
+
+
+
+/* Client Feedback Related Styles. */
+.client-feedback {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.client-boxes {
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.client-box {
+    width: 322px;
+    height: 478px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.client-title {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.client-image {
+    width: 149px;
+    height: 149px;
+    padding-bottom: 30px;
+}
+
+.client-desc {
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    padding-bottom: 18px;
+}
+
+.client-ratting {
+    gap: 5px;
+    padding-bottom: 16px;
+    padding-left: 70px;
+}
+
+.star-image {
+    width: 18.34px;
+    height: 18.35px;
+}
+
+.client-name {
+    color: rgb(35, 166, 240);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding-bottom: 15px;
+}
+
+.client-prof {
+    color: rgb(37, 43, 66);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+/*End of  Client Feedback Related Styles. */
+
+
+
+/*Frequently Asked Questions Related Styles. */
+.frequently-asked {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.asked-title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.asked-content {
+    justify-content: space-between;
+    gap: 140px;
+}
+
+.asked-image {
+    width: 431.2px;
+    height: 423.5px;
+}
+
+.asked-ques {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.asked-box-top {
+    width: 552px;
+    height: 203px;
+    box-sizing: border-box;
+    border: 1px solid rgb(213, 229, 251);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 16px;
+}
+
+.asked-box-title-top {
+    color: rgb(56, 56, 56);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.asked-desc {
+    color: rgb(126, 132, 140);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.sign-1 {
+    padding-left: 310px;
+}
+
+.asked-box-bottom {
+    width: 552px;
+    height: 92px;
+    box-sizing: border-box;
+    border: 1px solid rgb(213, 229, 251);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 16px;
+}
+
+.asked-box-title-bottom {
+    color: rgb(56, 56, 56);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+
+.sign-2 {
+    padding-left: 400px;
+}
+
+.sign-3 {
+    padding-left: 70px;
+}
+
+.sign-4 {
+    padding-left: 45px;
+}
+
+/*Frequently Asked Questions Related Styles. */
+
+
+
+
+/* Footer Related Styles. */
+footer {
+    background: rgb(11, 13, 23);
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 60px 0px;
+    justify-content: space-between;
+    color: white;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.footer-left-top {
+    gap: 24px;
+    margin-bottom: 16px;
+}
+
+.left-top-item {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-left-middle {
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.left-middle-item {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-left-desc {
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer-right {
+    flex-direction: column;
+    gap: 16px;
+}
+
+.right-top {
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/* End of Footer Related Styles. */
