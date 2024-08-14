@@ -164,6 +164,16 @@ header {
 
 
 /*Latest-News Related Styles.  */
+.news-title {
+    color: rgb(10, 8, 38);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+    margin: 0px;
+}
+
 .latest-news {
     max-width: 1200px;
     margin: 100px auto;
